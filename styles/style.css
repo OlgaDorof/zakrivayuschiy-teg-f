@@ -23,7 +23,7 @@
   background-image: var(--background-image);
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: 'wdth' var(--weight-text);
+  font-variation-settings: "wght" var(--weight-text);
   min-inline-size: 320px;
   min-block-size: 100dvb;
 }
@@ -126,9 +126,9 @@
 .card__title {
   border-bottom: 2px solid var(--text-color);
   padding: 5px 10px;
-  font-variation-settings: 'wdth' var(--weight-title);
   font-size: inherit;
   line-height: 22px;
+  font-variation-settings: "wght" var(--weight-title);
 }
 
 .card__picture {
@@ -171,8 +171,8 @@
 
 .card__description {
   padding: 25px;
-  font-variation-settings: 'wdth' var(--weight-text);
   line-height: 117%;
+  font-variation-settings: "wght" var(--weight-text);
 }
 
 .card__text {
@@ -315,9 +315,9 @@ dialog:not([open]) {
 }
 
 .popap__button {
+  width: 100%;
   padding: 7px 0;
   text-transform: uppercase;
-  width:100%;
 }
 
 @media (width<= 375px) {
