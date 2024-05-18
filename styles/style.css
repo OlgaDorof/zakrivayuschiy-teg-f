@@ -44,15 +44,13 @@
   background-color: var(--background-color);
 }
 
-.header__title {
+.header__logo {
   margin-bottom: 20px;
-  font-family: var(--accent-font);
   font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
 }
 
-.header__text {
+.header__title {
   margin-bottom: 25px;
-  font-family: var(--accent-font);
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
 }
 
@@ -72,6 +70,7 @@
   text-transform: uppercase;
   background-color: transparent;
   transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 
 .theme-menu__button::after {
@@ -229,6 +228,7 @@
 }
 
 .button:focus-visible {
+  border: 2px solid var(--text-color);
   box-shadow: 2px 2px 0 var(--text-color);
 }
 
@@ -348,34 +348,34 @@ dialog:not([open]) {
   }
 }
 
-.filter__1 {
+.filter-vintage {
   filter: saturate(140%) sepia(70%) brightness(180%);
 }
 
-.filter__2 {
+.filter-saturate {
   filter: saturate(160%);
 }
 
-.filter__3 {
+.filter-blur {
   filter: blur(0.5rem);
 }
 
-.filter__4 {
+.filter-brightness {
   filter: brightness(200%);
 }
 
-.filter__5 {
+.filter-huerotate {
   filter: hue-rotate(-40deg);
 }
 
-.filter__6 {
-  filter: saturate(145%) hue-rotate(-40deg);
+.filter-multi {
+  filter: saturate(145%) hue-rotate(-60deg);
 }
 
-.filter__7 {
+.filter-nostalgia {
   filter: sepia(1) contrast(3) brightness(120%);
 }
 
-.filter__8 {
+.filter-glow {
   filter: saturate(120%) brightness(150%);
 }
